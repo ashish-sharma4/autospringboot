@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.weather.SampleTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.701 s - in com.weather.SampleTests

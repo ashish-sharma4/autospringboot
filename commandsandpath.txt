@@ -1,0 +1,14 @@
+Commands
+Build command: 
+NA
+Sample evaluation command: 
+mvn clean test -Dtest=SampleTests
+junit-merge -o ./report.xml -d ./target/surefire-reports
+Hidden evaluation command: 
+mvn clean test -Dtest=BackgroundTests
+junit-merge -o ./report.xml -d ./target/surefire-reports
+Report:
+report.xml
+
+Hidden test case file
+src/test/java/com/weather/BackgroundTests.java

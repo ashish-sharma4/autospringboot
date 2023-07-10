@@ -1,6 +1,0 @@
-com/weather/repository/WeatherRepository.class
-com/weather/repository/LocationRepository.class
-com/weather/model/Weather.class
-com/weather/WeatherApplication.class
-com/weather/model/Location.class
-com/weather/controller/WeatherApiRestController.class

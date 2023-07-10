@@ -4,11 +4,18 @@ NA
 Sample evaluation command: 
 mvn clean test -Dtest=SampleTests
 junit-merge -o ./report.xml -d ./target/surefire-reports
+
 Hidden evaluation command: 
 mvn clean test -Dtest=BackgroundTests
 junit-merge -o ./report.xml -d ./target/surefire-reports
+
 Report:
 report.xml
 
+DONT use gradle commands for running the project.
+Note: Whitelabel error is the expected output.
+
 Hidden test case file
 src/test/java/com/weather/BackgroundTests.java
+
+

@@ -12,8 +12,18 @@ junit-merge -o ./report.xml -d ./target/surefire-reports
 Report:
 report.xml
 
+
+Command to make all pass:
+cp /home/tg-user/CandidateCode/Answers/src/main/java/com/weather/controller/* /home/tg-user/CandidateCode/src/main/java/com/weather/controller/;
+cp /home/tg-user/CandidateCode/Answers/src/main/java/com/weather/repository/* /home/tg-user/CandidateCode/src/main/java/com/weather/repository/;
+cp /home/tg-user/CandidateCode/Answers/src/main/java/com/weather/model/* /home/tg-user/CandidateCode/src/main/java/com/weather/model/
+
+
 DONT use gradle commands for running the project.
 Note: Whitelabel error is the expected output.
+
+
+
 
 Hidden test case file
 src/test/java/com/weather/BackgroundTests.java
